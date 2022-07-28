@@ -1,0 +1,12 @@
+.list-container {
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 30px;
+
+}
+
+.list-container .product img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
